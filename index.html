@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Charlène B.</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <header class="header fixed-header">
+        <a href="index.html" class="logo">Charlène <span>Baldi</span></a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#about" class="active">A propos</a>
+            <a href="#formation" title="Voir mon parcours">Formation</a>
+            <a href="#services" title="Voir mes services">Services</a>
+            <a href="#projects" title="Voir mes projets">Projets</a>
+            <a href="#contact" title="Me contacter">Contact</a>
+        </nav>
+    </header>
+
+        <div id="nav-modal" class="nav-modal">
+            <div class="nav-modal-content">
+                <span class="close">&times;</span>
+                <a href="#about">A propos</a>
+                <a href="#formation">Formation</a>
+                <a href="#services">Services</a>
+                <a href="#projects">Projets</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+
+    <section class="about" id="about">
+        <div class="about-content">
+            <h1>Salut, c'est <span>Charlène !</span></h1>
+            <h2>Je suis <span>Intégratrice Web.</span></h2>
+            <p>En septembre 2023, je me suis lancée dans l'intégration web avec passion et dévouement. J'ai acquis au
+                fil du temps une solide compréhension des fondamentaux du front-end (HTML, CSS, Javascript...).</p>
+            <p>Mon intérêt pour le développement front-end ne cesse de grandir depuis, et je suis constamment en quête
+                de nouveaux défis.</p>
+            <p>Mon objectif actuel est de concevoir des sites web créatifs et personnalisés qui répondent parfaitement à
+                vos
+                besoins et à vos
+                aspirations.</p>
+
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/charlène-baldi1" title="Lien vers mon Linkedin"
+                    class="social-icon"><span><i class='bx bxl-linkedin'></i></span></a>
+                <a href="https://github.com/aewenn" title="Lien vers mon Github" class="social-icon"><span><i
+                            class='bx bxl-github'></i></span></a>
+                <a href="#" title="Lien vers mon Instagram" class="social-icon">
+                    <span><i class='bx bxl-instagram'></i></span>
+                </a>
+            </div>
+
+            <div class="btn-group">
+                <a href="#" title="Accéder à mon CV" class="btn">Voir mon CV</a>
+                <a href="#contact" title="Accéder au formulaire pour me contacter" class="btn">Me contacter</a>
+            </div>
+        </div>
+        <div class="about-img">
+            <img src="img.jpg" alt="Avatar de Charlène Baldi" title="Mon avatar">
+        </div>
+    </section>
+
+    <section class="formation" id="formation">
+        <h2>Formation</h2>
+        <div class="formation-content">
+            <div class="formation-item">
+                <h3>Intégrateur Web - OpenClassrooms</h3>
+                <h4>2023 - 2024</h4>
+                <p>12 projets professionnalisants pour apprendre à maîtriser le développement d'interfaces web.</p>
+                <div class="competences">
+                    <h4>Compétences :</h4>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>SASS</li>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                        <li>Redux</li>
+                        <li>Appels API</li>
+                        <li>Visual Studio Code</li>
+                        <li>Responsive design</li>
+                        <li>Git & GitHub</li>
+                        <li>Figma</li>
+                        <li>Trello</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="services" id="services">
+        <h2>Services</h2>
+        <div class="services-content">
+            <div class="service-item">
+                <i class='bx bx-code-alt'></i>
+                <h3>Développement Web</h3>
+                <p>Création de sites web modernes et réactifs.</p>
+            </div>
+            <div class="service-item">
+                <i class='bx bx-paint'></i>
+                <h3>Design Web</h3>
+                <p>Conception de designs attrayants et fonctionnels.</p>
+            </div>
+            <div class="service-item">
+                <i class='bx bx-search-alt'></i>
+                <h3>SEO</h3>
+                <p>Optimisation pour les moteurs de recherche.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2>Projets</h2>
+        <div class="projects-content">
+            <div class="project-item">
+                <img src="" alt="Projet Kasa" title="Image du projet Kasa">
+                <h3>Kasa</h3>
+                <p>Description</p>
+            </div>
+            <div class="project-item">
+                <img src="project2.jpg" alt="Projet" title="Image du projet 2">
+                <h3>Projet</h3>
+                <p>Description du projet.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Contact</h2>
+        <div class="contact-content">
+            <p>Vous avez un projet et souhaitez en discuter avec moi ?</p>
+            <form action="https://formspree.io/f/mzzpbgrn" method="POST">
+                <div class="form-group">
+                    <label for="name">Votre nom *</label>
+                    <input type="text" id="name" name="name" placeholder="Nom" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Votre email *</label>
+                    <input type="email" id="email" name="_replyto" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Votre numéro de téléphone</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Numéro de téléphone">
+                </div>
+                <div class="form-group">
+                    <label for="subject">L'objet de votre message *</label>
+                    <input type="text" id="subject" name="subject" placeholder="Objet" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Votre message *</label>
+                    <textarea id="message" name="message" placeholder="Message" required></textarea>
+                </div>
+                <button type="submit" class="btn">Envoyer</button>
+            </form>
+            <p>* Champs obligatoires</p>
+            <p>Je m'engage à vous répondre dans les meilleurs délais.</p>
+        </div>
+    </section>
+
+
+
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-social-icons">
+                <a href="https://www.linkedin.com/in/charlène-baldi1" title="Voir mon Linkedin"
+                    class="social-icon"><span><i class='bx bxl-linkedin'></i></span></a>
+                <a href="https://github.com/aewenn" title="Voir mon Github" class="social-icon"><span><i
+                            class='bx bxl-github'></i></span></a>
+                <a href="#" title="Lien vers mon Instagram" class="social-icon">
+                    <span><i class='bx bxl-instagram'></i></span>
+                </a>
+            </div>
+        </div>
+        <p class="footer-text">© 2024 Charlène Baldi. Tous droits réservés.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
