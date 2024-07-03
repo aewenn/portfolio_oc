@@ -37,20 +37,17 @@ document.addEventListener('DOMContentLoaded', () => {
             navModal.classList.remove('active');
         }
     });
-});
 
-// Scroll Header
-const header = document.querySelector('.header');
+    // Scroll Header
+    const header = document.querySelector('.header');
 
-// Vérification de la position de scroll et ajout de la classe si nécessaire
-function handleScroll() {
-    if (window.scrollY > 0) {
-        header.classList.add('fixed-header');
-    } else {
-        header.classList.remove('fixed-header');
+    function handleScroll() {
+        if (window.scrollY > 0) {
+            header.classList.add('fixed-header');
+        } else {
+            header.classList.remove('fixed-header');
+        }
     }
-}
-
-window.addEventListener('scroll', handleScroll);
-
-
+    window.addEventListener('scroll', handleScroll);
+    handleScroll();
+});
