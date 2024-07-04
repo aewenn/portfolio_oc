@@ -312,7 +312,7 @@ body {
 }
 
 .competences h4 {
-    color: #EA5863;
+    color: #955149;
     font-size: 18px;
     margin-bottom: 10px;
 }
@@ -352,7 +352,7 @@ body {
 }
 
 .services p {
-    text-align: justify;
+    text-align: center;
 }
 
 .services-content {
@@ -429,6 +429,10 @@ body {
     width: 100%;
     max-width: 400px;
     text-align: center;
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .project-item p {
@@ -441,15 +445,30 @@ body {
     height: 190px;
     object-fit: cover;
     object-position: top;
-        display: block;
-            margin-left: auto;
-            margin-right: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project-item img:hover {
+    transform: scale(1.1);
 }
 
 .project-item h3 {
     margin-top: 10px;
     font-size: 20px;
     color: #EA5863;
+}
+
+.project-links {
+    display: flex;
+    gap: 20px;
+}
+
+.project-skills {
+    display: flex;
+    gap: 20px;
+    font-size: 24px;
 }
 
 @media (min-width: 769px) {
@@ -513,7 +532,7 @@ body {
     padding: 10px;
     border: none;
     border-radius: 5px;
-    background-color: #EA5863;
+    background-color: #955149;
     color: #FAF2EA;
     font-family: 'Poppins', sans-serif;
     cursor: pointer;
@@ -521,7 +540,7 @@ body {
 }
 
 .contact-content button:hover {
-    background-color: #955149;
+    background-color: #EA5863;
 }
 
 @media (min-width: 769px) {
