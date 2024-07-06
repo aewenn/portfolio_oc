@@ -1,0 +1,94 @@
+{
+  "projects": [
+    {
+      "title": "OhMyFood",
+      "image": "./images/projects/Ohmyfood.webp",
+      "alt": "Image du projet OhMyFood, plateforme de commande de repas en ligne",
+        "skills": ["HTML", "Sass", "Figma", "Git", "GitHub"],
+      "description": {
+        "part1": "OhMyFood est une plateforme de commande de repas en ligne sur laquelle les clients peuvent composer le menu de leur repas avant leur arrivée. J'ai réalisé une première version front-end du site.",
+        "part2": "Le site a été développé en mobile first, il est responsive et comporte des animations CSS. Le projet a été versionné sur Git et Github."
+      },
+      "links": {
+        "github": "https://github.com/aewenn/ohmyfood_project",
+        "live": "https://aewenn.github.io/ohmyfood_project/",
+        "presentation": null
+      }
+    },
+    {
+      "title": "Sophie Bluel",
+      "image": "./images/projects/Sophie-Bluel.webp",
+      "alt": "Image du projet Sophie Bluel, architecte d'intérieur",
+        "skills": ["HTML", "CSS", "JavaScript", "Git", "GitHub"],
+      "description": {
+        "part1": "Sophie Bluel est architecte d'intérieur. J'ai travaillé sur une version dynamique de son portfolio, en intégrant une page de connexion et un mode édition dans lequel elle peut ajouter ou supprimer un projet.",
+        "part2": "Le site a été développé en version desktop, en utilisant JavaScript. Le projet a été versionné sur Git et Github."
+      },
+      "links": {
+        "github": "https://github.com/aewenn/Portfolio-architecte-sophie-bluel",
+        "live": null,
+        "presentation": null
+      }
+    },
+    {
+      "title": "Menu Maker by Qwenta",
+      "image": "./images/projects/MenuMaker.webp",
+      "alt": "Image du projet Menu Maker, application de création de menu",
+        "skills": ["Gestion de projet", "Veille technique", "Notion", "Trello"],
+      "description": {
+        "part1": "Menu Maker est un projet d'application web conçu par Qwenta, entreprise leader dans l'impression de supports pour les professionnels. J'ai été contactée pour gérer le projet.",
+        "part2": "J'ai planifié le développement du site en rédigeant les spécifications techniques, en réalisant un kanban, et en utilisant une méthodologie agile."
+      },
+      "links": {
+        "github": null,
+        "live": null,
+        "presentation": "https://www.canva.com/design/DAGBF9EhgGE/kl79vh_LSkQngU7LaLURFA/view?utm_content=DAGBF9EhgGE&utm_campaign=designshare&utm_medium=link&utm_source=editor"
+      }
+    },
+    {
+      "title": "Kasa",
+      "image": "./images/projects/Kasa.webp",
+      "alt": "Image du projet Kasa, entreprise de location immobililère",
+        "skills": ["HTML", "Sass", "React", "Git", "GitHub"],
+      "description": {
+        "part1": "Kasa est une entreprise de location immobilière entre particuliers. Dans le cadre de la refonte totale du site, je devais développer l'ensemble de l'application React et des fonctionnalités liées aux hébergements.",
+        "part2": "Le site a été développé en mobile first, il est responsive et comporte des animations CSS. Le projet a été versionné sur Git et Github."
+      },
+      "links": {
+        "github": "https://github.com/aewenn/kasa-project",
+        "live": "https://aewenn.github.io/kasa-project/",
+        "presentation": null
+      }
+    },
+    {
+      "title": "Nina Carducci",
+      "image": "./images/projects/Nina-Carducci.webp",
+      "alt": "Image du projet Nina Carducci, photohraphe portraits et évènementiel",
+        "skills": ["HTML", "CSS", "SEO", "WAVE", "Google Rich Snippets"],
+      "description": {
+        "part1": "Nina Carducci est photographe portraits et évènementiel. J'avais pour mission de mettre en oeuvre une optimisation du référencement, des performances, et de l'accessibilité de son portfolio.",
+        "part2": "J'ai résolu les problèmes de performance, mis en place un référencement local et optimisé la visibilité de Nina Carducci sur les réseaux sociaux."
+      },
+      "links": {
+        "github": null,
+        "live": "https://aewenn.github.io/ninacarducci.github.io/",
+        "presentation": "https://www.canva.com/design/DAGDCe3dFHU/P7VRc82oYzgJqKDP8-vKHg/view?utm_content=DAGDCe3dFHU&utm_campaign=designshare&utm_medium=link&utm_source=editor"
+      }
+    },
+    {
+      "title": "Argent Bank",
+      "image": "./images/projects/Argent-Bank.webp",
+      "alt": "Image du projet Argent Bank, application bancaire",
+    "skills": ["React", "Redux", "Sass", "Swagger", "Git", "GitHub"],
+      "description": {
+        "part1": "Argent Bank est une nouvelle banque en ligne qui développe son application bancaire. J'ai été chargée d'intégrer l'authentification utilisateur et de mettre en place le tableau de bord utilisateur, en respectant les pratiques du Green Code.",
+        "part2": "Une première version du site a été développée en utilisant React et Redux. Le site est responsive et le projet a été versionné sur Git et Github."
+      },
+      "links": {
+        "github": "https://github.com/aewenn/ArgentBank-website",
+        "live": null,
+        "presentation": null
+      }
+    }
+  ]
+}
