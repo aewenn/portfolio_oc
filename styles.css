@@ -433,6 +433,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 740px;
 }
 
 .project-item p {
@@ -671,3 +672,4 @@ body {
 .nav-modal-content a:hover::after {
     width: 100%;
 }
+

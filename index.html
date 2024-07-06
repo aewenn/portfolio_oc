@@ -5,6 +5,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio - Charlène B.</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="title" content="Portfolio - Charlène Baldi, intégratrice web">
+    <meta name="description"
+        content="Portfolio de Charlène Baldi, Intégratrice Web passionnée par le développement Front-End et en quête de nouveaux défis.">
+    <meta name="author" content="Charlène Baldi">
+    <meta name="copyright" content="© Charlène Baldi">
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:title" content="Portfolio - Charlène Baldi, intégratrice web">
+    <meta property="og:description"
+        content="Portfolio de Charlène Baldi, Intégratrice Web passionnée par le développement Front-End et en quête de nouveaux défis.">
+    <meta property="og:image" content="https://github.com/aewenn/portfolio_oc/images/avatar.jpg">
+    <meta property="og:url" content="https://github.com/aewenn/portfolio_oc">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="fr_FR">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Portfolio - Charlène Baldi, intégratrice web">
+    <meta name="twitter:description"
+        content="Portfolio de Charlène Baldi, Intégratrice Web passionnée par le développement Front-End et en quête de nouveaux défis.">
+    <meta name="twitter:image" content="https://github.com/aewenn/portfolio_oc/images/avatar.jpg">
+
+        <!-- Styles -->
+
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,6 +38,24 @@
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Structured Data JSON-LD -->
+    <script type="application/ld+json">
+            {
+              "@context": "https://schema.org",
+              "@type": "Person",
+              "name": "Charlène Baldi",
+              "jobTitle": "Intégratrice Web",
+              "description": "Passionnée par le développement Front-End et en quête de nouveaux défis.",
+              "image": "https://github.com/aewenn/portfolio_oc/images/avatar.jpg",
+              "url": "https://github.com/aewenn/portfolio_oc",
+              "sameAs": [
+                "https://www.linkedin.com/in/charlene-baldi",
+                "https://twitter.com/charlene_baldi",
+                "https://github.com/aewenn"
+              ]
+            }
+            </script>
 </head>
 
 <body>
@@ -73,7 +117,7 @@
                 </div>
             </div>
             <div class="about-img">
-                <img src="img.jpg" alt="Avatar de Charlène Baldi" title="Mon avatar">
+                <img src="./images/avatar.jpg" alt="Avatar de Charlène Baldi" title="Mon avatar">
             </div>
         </section>
 
@@ -142,7 +186,8 @@
             <h2>Projets</h2>
             <div class="projects-content">
                 <div class="project-item">
-                    <img src="ohmyfood.png" alt="Image du projet OhMyFood, entreprise de commande de repas en ligne"
+                    <img src="./images/projects/Ohmyfood.png"
+                        alt="Image du projet OhMyFood, entreprise de commande de repas en ligne"
                         title="Image du projet OhMyFood">
                     <h3>OhMyFood</h3>
                     <div class="project-skills">
@@ -154,7 +199,10 @@
                     </div>
                     <p>OhMyFood est une plateforme de commande de repas en ligne sur laquelle les clients peuvent
                         composer
-                        le menu de leur repas avant leur arrivée.</p>
+                        le menu de leur repas avant leur arrivée. J'ai réalisé une première version front-end du site.
+                    </p>
+                    <p>Le site a été développé en mobile first, il est responsive et comporte des animations CSS. Le
+                        projet a été versionné sur Git et Github.</p>
                     <div class="project-links">
                         <a href="https://github.com/aewenn/ohmyfood_project"
                             title="Lien vers le code du projet OhMyFood" class="social-icon"><span><i
@@ -165,7 +213,7 @@
                     </div>
                 </div>
                 <div class="project-item">
-                    <img src="Sophie-Bluel.png"
+                    <img src="./images/projects/Sophie-Bluel.png"
                         alt="Image du projet Sophie Bluel, portfolio d'une architecte d'intérieur"
                         title="Image du projet Sophie Bluel">
                     <h3>Sophie Bluel</h3>
@@ -176,7 +224,11 @@
                         <span title="Git"><i class='bx bxl-git'></i></span>
                         <span title="GitHub"><i class='bx bxl-github'></i></span>
                     </div>
-                    <p>Description</p>
+                    <p>Sophie Bluel est architecte d'intérieur. J'ai travaillé sur une version dynamique de son
+                        portfolio, en intégrant une page de connexion et un mode édition dans lequel elle peut ajouter
+                        ou supprimer un projet.</p>
+                    <p>Le site a été développé en version desktop, en utilisant JavaScript. Le
+                        projet a été versionné sur Git et Github.</p>
                     <div class="project-links">
                         <a href="https://github.com/aewenn/Portfolio-architecte-sophie-bluel"
                             title="Lien vers le code du projet Sophie Bluel" class="social-icon"><span><i
@@ -184,7 +236,7 @@
                     </div>
                 </div>
                 <div class="project-item">
-                    <img src="MenuMaker.png"
+                    <img src="./images/projects/MenuMaker.png"
                         alt="Image du projet Menu Maker, plateforme de création et d'impression de menu"
                         title="Image du projet Menu Maker">
                     <h3>Menu Maker by Qwenta</h3>
@@ -194,7 +246,12 @@
                         <span title="Notion"><i class='bx bx-note'></i></span>
                         <span title="Trello"><i class='bx bxl-trello'></i></span>
                     </div>
-                    <p>Description</p>
+                    <p>Menu Maker est un projet d'application web conçu par Qwenta, entreprise leader dans l'impression
+                        de suppports pour les professionnels. J'ai été contactée pour gérer le projet.</p>
+                    <p>J'ai planifié le développement du site en rédigeant les
+                        spécifications techniques, en réalisant un
+                        kanban, et en
+                        utilisant une méthodologie agile.</p>
                     <div class="project-links">
                         <a href="https://www.canva.com/design/DAGBF9EhgGE/kl79vh_LSkQngU7LaLURFA/view?utm_content=DAGBF9EhgGE&utm_campaign=designshare&utm_medium=link&utm_source=editor"
                             title="Lien vers la présentation Canva du projet Menu Maker" class="social-icon"
@@ -202,8 +259,8 @@
                     </div>
                 </div>
                 <div class="project-item">
-                    <img src="Kasa.png" alt="Image du projet Kasa, application de location immobilière"
-                        title="Image du projet Kasa">
+                    <img src="./images/projects/Kasa.png"
+                        alt="Image du projet Kasa, application de location immobilière" title="Image du projet Kasa">
                     <h3>Kasa</h3>
                     <div class="project-skills">
                         <span title="HTML"><i class='bx bxl-html5'></i></span>
@@ -212,7 +269,11 @@
                         <span title="Git"><i class='bx bxl-git'></i></span>
                         <span title="GitHub"><i class='bx bxl-github'></i></span>
                     </div>
-                    <p>Description</p>
+                    <p>Kasa est une entreprise de location immobilière entre particuliers. Dans le cadre de la refonte
+                        totale du site, je devais développer l'ensemble de l'application React et des fonctionnalités
+                        liées aux hébergements.</p>
+                    <p>Le site a été développé en mobile first, il est responsive et comporte des animations CSS. Le
+                        projet a été versionné sur Git et Github.</p>
                     <div class="project-links">
                         <a href="https://github.com/aewenn/kasa-project" title="Lien vers le code du projet Kasa"
                             class="social-icon"><span><i class='bx bxl-github'></i></span></a>
@@ -221,7 +282,8 @@
                     </div>
                 </div>
                 <div class="project-item">
-                    <img src="Nina-Carducci.png" alt="Image du projet Nina Carducci, portfolio d'une photographe"
+                    <img src="./images/projects/Nina-Carducci.png"
+                        alt="Image du projet Nina Carducci, portfolio d'une photographe"
                         title="Image du projet Nina Carducci">
                     <h3>Nina Carducci</h3>
                     <div class="project-skills">
@@ -231,7 +293,10 @@
                         <span title="WAVE"><i class='bx bx-universal-access'></i></span>
                         <span title="Google Rich Snippets"><i class='bx bx-code-block'></i></span>
                     </div>
-                    <p>Description</p>
+                    <p>Nina Carducci est photographe portraits et évènementiel. J'avais pour mission de mettre en oeuvre
+                        une optimisation du référencement, des performances, et de l'accessibilité de son portfolio.</p>
+                    <p>J'ai résolu les problèmes de performance, mis en place un référencement local et optimisé la
+                        visibilité de Nina Carducci sur les réseaux sociaux.</p>
                     <div class="project-links">
                         <a href="https://www.canva.com/design/DAGDCe3dFHU/P7VRc82oYzgJqKDP8-vKHg/view?utm_content=DAGDCe3dFHU&utm_campaign=designshare&utm_medium=link&utm_source=editor"
                             title="Lien vers le rapport d'optimisation pour le projet Nina Carducci" class="social-icon"
@@ -242,7 +307,7 @@
                     </div>
                 </div>
                 <div class="project-item">
-                    <img src="Argent-Bank.png" alt="Image du projet Argent Bank, application bancaire"
+                    <img src="./images/projects/Argent-Bank.png" alt="Image du projet Argent Bank, application bancaire"
                         title="Image du projet Argent Bank">
                     <h3>Argent Bank</h3>
                     <div class="project-skills">
@@ -253,12 +318,15 @@
                         <span title="Git"><i class='bx bxl-git'></i></span>
                         <span title="GitHub"><i class='bx bxl-github'></i></span>
                     </div>
-                    <p>Description</p>
+                    <p>Argent Bank est une nouvelle banque en ligne qui développe son application bancaire. J'ai
+                        été chargée d'intégrer l'authentification utilisateur et de mettre en place le tableau de bord
+                        utilisateur, en respectant les pratiques du Green Code.</p>
+                    <p>Une première version du site a été développée en utilisant React et Redux. Le site est responsive
+                        et le projet a été versionné sur Git et Github.</p>
                     <div class="project-links">
-                        <a href="#" title="Lien vers le code du projet Argent Bank" class="social-icon"><span><i
+                        <a href="https://github.com/aewenn/ArgentBank-website"
+                            title="Lien vers le code du projet Argent Bank" class="social-icon"><span><i
                                     class='bx bxl-github'></i></span></a>
-                        <a href="#" title="Lien vers le site du projet Argent Bank" class="social-icon"><span><i
-                                    class='bx bx-link-external'></i></span></a>
                     </div>
                 </div>
             </div>
